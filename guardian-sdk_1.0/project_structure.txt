@@ -1,0 +1,19 @@
+
+# Project Structure
+
+guardian/
+├── src/
+│   ├── index.js                        # Main entry point
+│   ├── modules/
+│   │   ├── solana.js                   # Solana blockchain interface
+│   │   ├── splToken.js                 # SPL Token functions (mint, transfer, burn)
+│   │   ├── smartContractAuditing.js    # AI-powered smart contract auditing (with ML models)
+│   │   ├── fraudDetection.js           # Real-time fraud detection (with ML models)
+│   │   ├── disputeResolution.js        # Decentralized dispute resolution with AI or voting
+│   │   ├── rewards.js                  # Reward system (SPL tokens or Solana)
+│   ├── utils/
+│   │   ├── logger.js                   # Logger utility for tracking errors and events
+│   │   ├── aiUtils.js                  # Helper functions for AI models
+├── README.md                           # Documentation
+├── package.json                        # Project dependencies and metadata
+└── .gitignore                          # Git ignore file

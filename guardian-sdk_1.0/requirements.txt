@@ -1,0 +1,11 @@
+
+# Guardian SDK dependencies
+@solana/web3.js==1.27.0            # Solana Web3.js library to interact with the Solana blockchain
+@solana/spl-token==0.1.1           # SPL Token library for managing Solana tokens
+
+# Machine learning and AI dependencies
+@tensorflow/tfjs-node==3.9.0       # TensorFlow.js for running machine learning models (smart contract auditing, fraud detection)
+@huggingface/transformers==4.0.0   # Hugging Face Transformers for NLP-based dispute resolution
+
+# Additional utility dependencies
+dotenv==10.0.0                     # For managing environment variables (e.g., for API keys or model paths)

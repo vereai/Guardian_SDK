@@ -1,0 +1,19 @@
+
+# Instructions for Guardian SDK
+
+1. Install dependencies:
+   Run `npm install` to install all required dependencies from package.json.
+
+2. Set up Solana environment:
+   Ensure that you have the Solana CLI installed and set to the correct network (e.g., devnet).
+   - Install Solana CLI: https://docs.solana.com/cli/install-solana-cli-tools
+
+3. Configure models:
+   Make sure to place the pre-trained models for smart contract auditing and fraud detection in the models folder.
+
+4. Usage:
+   - The SDK provides functionalities like Solana account management, token creation, contract auditing, fraud detection, dispute resolution, and more.
+   - Example usage is included in `src/index.js`.
+
+5. Contribution:
+   Contributions to the SDK are welcome. Please follow the guidelines in the repository for submitting issues and pull requests.
